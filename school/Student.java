@@ -27,7 +27,6 @@ public class Student {
         // range nilai (0-100)
     }
     public void hitungNilaiAkhir(){
-        
         // kehadiran 10% dari nilai akhir
         // nilai harian 20% dari nilai akhir
         // nilai UTS 30% ari nilai akhir
@@ -42,6 +41,7 @@ public class Student {
     }
 
     public void getReport(){
+        // print nama
         this.hitungNilaiAkhir();
         // print nilai akhir
         this.setGrade();

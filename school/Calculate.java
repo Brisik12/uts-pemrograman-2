@@ -3,7 +3,7 @@ package school;
 public class Calculate {
     public static void main(String[] args) {
         Student studentA = new Student("Ari");
-        // Student studentB = new Student("Rina");
+        Student studentB = new Student("Rina");
 
         // Set Value 
         studentA.setHadir(17);
@@ -11,14 +11,13 @@ public class Calculate {
         studentA.setUTS(120);
         studentA.setUAS(67);
 
-        studentA.setHadir(16);
-        studentA.setNilaiHarian(90);
-        studentA.setUTS(77);
-        studentA.setUAS(55);
+        studentB.setHadir(16);
+        studentB.setNilaiHarian(90);
+        studentB.setUTS(77);
+        studentB.setUAS(55);
 
         // Calculate and print value
-        studentA.hitungNilaiAkhir();
-        studentA.setGrade();
         studentA.getReport();
+        studentB.getReport();
     }
 }
