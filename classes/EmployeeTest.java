@@ -3,18 +3,18 @@ package classes;
 public class EmployeeTest {
     public static void main(String args[]) {
         /* Create two objects using constructor */
-        Employee empOne = new Employee("James Smith");
-        Employee empTwo = new Employee("Mary Anne");
+        Employee emp1 = new Employee("James Smith");
+        Employee emp2 = new Employee("Mary Anne");
   
         // Invoking methods for each object created
-        empOne.setAge(26);
-        empOne.setDesignation("Senior Software Engineer");
-        empOne.setSalary(1000);
-        empOne.printEmployee();
+        emp1.setAge(26);
+        emp1.setDesignation("Senior Software Engineer");
+        emp1.setSalary(1000);
+        emp1.printEmployee();
 
-        empTwo.setAge(21);
-        empTwo.setDesignation("Associate Software Engineer");
-        empTwo.setSalary(500);
-        empTwo.printEmployee();
+        emp2.setAge(21);
+        emp2.setDesignation("Associate Software Engineer");
+        emp2.setSalary(500);
+        emp2.printEmployee();
      }
 }
