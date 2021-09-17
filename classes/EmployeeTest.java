@@ -7,14 +7,14 @@ public class EmployeeTest {
         Employee empTwo = new Employee("Mary Anne");
   
         // Invoking methods for each object created
-        empOne.empAge(26);
-        empOne.empDesignation("Senior Software Engineer");
-        empOne.empSalary(1000);
+        empOne.setAge(26);
+        empOne.setDesignation("Senior Software Engineer");
+        empOne.setSalary(1000);
         empOne.printEmployee();
-  
-        empTwo.empAge(21);
-        empTwo.empDesignation("Software Engineer");
-        empTwo.empSalary(500);
+
+        empTwo.setAge(21);
+        empTwo.setDesignation("Associate Software Engineer");
+        empTwo.setSalary(500);
         empTwo.printEmployee();
      }
 }
