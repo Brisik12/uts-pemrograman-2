@@ -21,7 +21,7 @@ public class Student {
         // range nilai (0-100)
     }
     public void setHadir(int hadir){
-        // maksimun kehadiran 18
+        // maksimum kehadiran 18
     }
     public void setNilaiHarian(double harian){
         // range nilai (0-100)
@@ -41,6 +41,7 @@ public class Student {
     }
 
     public void getReport(){
+        // Nilainya ada yang 0 print error dan laporan tidak dicetak
         // print nama
         this.hitungNilaiAkhir();
         // print nilai akhir
