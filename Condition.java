@@ -5,12 +5,11 @@ class Condition {
         char grade = 'C';
 
         // if-else Statement
-        // if( x < 20 ) {
-        //    System.out.print("This is if statement");
-        // } else {
-        //    System.out.print("This is else statement");
-        //     }
-        // }
+        if( x < 20 ) {
+           System.out.print("This is if statement");
+        } else {
+           System.out.print("This is else statement");
+            }
 
         // if( x == 10 ) {
         //     System.out.print("Value of X is 10");
