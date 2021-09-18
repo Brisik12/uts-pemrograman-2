@@ -16,7 +16,5 @@ public class EmployeeTest {
         emp2.setDesignation("Associate Software Engineer");
         emp2.setSalary(500);
         emp2.printEmployee();
-
-        // System.out.println(emp1.name);
      }
 }
