@@ -12,8 +12,8 @@ public class PhoneData {
 
         // Get phone list
         iphone13.getPhoneData();
-        System.out.println(String.format("Harga dalam Rupiah: Rp.%,.2f", iphone13.convertToRP()));
+        System.out.println(String.format("Harga dalam Rupiah: Rp%,.2f", iphone13.convertToRP()));
         zflip.getPhoneData();
-        System.out.println(String.format("Harga dalam Rupiah: Rp.%,.2f", zflip.convertToRP()));
+        System.out.println(String.format("Harga dalam Rupiah: Rp%,.2f", zflip.convertToRP()));
     }
 }

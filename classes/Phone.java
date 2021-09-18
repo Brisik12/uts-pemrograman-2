@@ -32,7 +32,7 @@ public class Phone {
         System.out.println("================================");
         System.out.println("Brand:"+ brand);
         System.out.println("Brand:"+ type);
-        System.out.println("Price: $"+ getPrice());
+        System.out.println(String.format("Price: $%,.2f", price));
         System.out.println("================================");
     }
 }
